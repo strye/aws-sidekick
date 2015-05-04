@@ -1,0 +1,25 @@
+{
+	"name": "aws-sidekick",
+	"description": "A node.js module containing routine actions that assist with using the node.js sdk from aws.",
+	"version": "0.0.1",
+	"author": {
+		"name": "Will Strye",
+		"email": "will.strye@malignantgenius.com",
+		"url": "www.malignantgenius.com"
+	},
+	"main": "index.js",
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"scripts": {
+		"test": "mocha -R spec"
+	},
+	"dependencies": {
+		"aws-sdk": "latest"
+	},
+	"devDependencies": {
+		"should": "^4.6.0",
+		"socket.io-client": "^1.2.1"
+	},
+	"keywords": ["aws","code-helpers","dynamoDb"]
+}
